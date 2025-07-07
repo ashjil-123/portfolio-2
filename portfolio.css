@@ -301,7 +301,7 @@ body {
 }
 .email{
     background-color: rgb(193, 220, 243);
-    height: 350px;
+    height: 400px;
     width: 800px;
     display: flex;
     flex-direction: row;
