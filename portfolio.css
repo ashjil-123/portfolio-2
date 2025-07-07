@@ -301,7 +301,7 @@ body {
 }
 .email{
     background-color: rgb(193, 220, 243);
-    height: 400px;
+    height: 350px;
     width: 800px;
     display: flex;
     flex-direction: row;
@@ -361,10 +361,10 @@ body {
    transform: scale(1.1);
 }
 .email input{
-       margin-bottom: 25px;
+       margin-bottom: 40px;
        height: 40px;
 }
 .email button{
-    margin-top: 25px;
+    margin-top: 40px;
 }
 
