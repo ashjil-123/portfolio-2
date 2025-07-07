@@ -1,0 +1,414 @@
+body {
+    background-color: rgb(109, 188, 215);
+}
+
+.container-fluid {
+    background-color: rgb(153, 153, 139);
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+.me{
+    
+    width:150px;
+    color: rgb(0, 0, 0);
+    font-weight: 800px;
+    position: fixed;
+    margin-right: 1600px;
+    margin-top: 10px;
+}
+
+.me img{
+    
+    height: 50px;
+}
+.me img:hover{
+    transform: scale(1.1);
+    
+}
+.nev {
+   
+   width: 1000px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+
+    
+
+}
+.menu-select{
+    display: none;
+}
+
+.home {
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home:hover {
+    color: rgb(255, 208, 137);
+    transform: scale(.95);
+}
+.photo img{
+    width: 400px;
+    height:500px;
+    border: 5px rgb(0, 0, 0) solid;
+    border-radius: 200px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+@media (max-width:768px) {
+    .photo img{
+    width: 200px;
+    height:250px;
+    border: 5px rgb(0, 0, 0) solid;
+    border-radius: 200px;
+    margin-top: 100px;
+    margin-left: 100px;
+
+    }
+}
+.discription{
+    
+   
+    width: 500px;
+    position: relative;
+    left: 800px;
+    bottom: 300px;
+    
+  
+}
+@media (max-width:1310px){
+   
+   .discription{
+    width: 900px;
+    position: relative;
+    left: 100px;
+    bottom: -50px;
+   }
+   
+}
+@media (max-width:990px){
+    .discription{
+        width: 900px;
+        position: relative;
+        left: 50px;
+        bottom: -50px;
+        font-size: 50px;
+    }
+   }
+   @media (max-width:768px) {
+    .discription{
+        
+        position: relative;
+        left: 10px;
+        font-size: 0px;
+        width: 550px;
+    }
+    .nev{
+        display: none;
+    }
+    .menu-select{
+        display: block;
+        margin-top: 20px;
+    }
+   }
+.discription h2{
+    color: rgb(0, 148, 25);
+    font-weight: 900;
+}
+.discription h3{
+    color: whitesmoke;
+
+}
+.discription p{
+    color: rgb(0, 0, 0);
+    font-size: large;
+    
+}
+.about{
+    /* background-color: blueviolet; */
+    height: 500px;
+  
+    
+}
+.about h2{
+    color: rgb(120, 150, 0);
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight:bolder;
+     
+}
+.about p{
+    font-size: larger;
+    width: 800px;
+    margin-left: 550px;
+}
+.hire input{
+    height: 70px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(48, 48, 47);
+    color: rgb(203, 255, 201);
+    border-radius: 15px;
+    border-color: black;
+    margin-left: 830px;
+}
+.hire input:hover{
+    background-color: chocolate;
+    transform: scale(1.1);
+}
+/* @keyframes move{
+    0%{
+        left:0px
+    }
+    100%{
+        left:100px;
+    }
+} */
+ .skill{
+    display: flex;
+    justify-content: center;
+    
+    padding-top: 50px;
+    gap: 200px;
+ }
+.html img{
+    width: 100px;
+}
+.css img{
+    width:110px;
+}
+
+.js img{
+    width: 100px;
+}
+.bootstrap img{
+    width: 100px;
+}
+.text {
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 830px;
+    color: rgb(120, 150, 0);
+    
+}
+
+
+.css img:hover{
+  transform: scale(1.1);
+}
+.html img:hover{
+  transform: scale(1.1);
+  
+}
+.js img:hover{
+  transform: scale(1.1);
+}
+.bootstrap img:hover{
+  transform: scale(1.1);
+}
+/* .progress {
+    
+    
+    width: 100%;
+    height: 200px;
+     background-color: rgb(109, 188, 215);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around ;
+    align-items: center;
+    margin-top: 100px;
+}
+.progress .communication{
+    width: 600px;
+    height:30px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    border: 2px black solid;
+
+}
+.progress .communication img{
+    width: 60px;
+    
+}
+.progress .communication h2{
+    color: fuchsia;
+    font-size: 100px;
+    
+}
+
+
+.progress .teamwork{
+    width: 700px;
+    height: 30px;
+    background-color: rgb(43, 205, 226);
+     border-radius: 20px;
+    border: 2px black solid;
+}
+.progress .teamwork img{
+    width: 60px
+}
+.progress .problem{
+    width: 500px;
+    height: 30px;
+    background-color: rgb(107, 226, 43);
+    border-radius: 20px;
+    border: 2px black solid;
+    
+}
+.progress .problem img{
+    width: 70px;
+    
+}
+.progress img{
+ position: relative;;
+ left: -80px;
+ top: -20px;
+} */
+ .progress {
+    
+    
+    width: 100%;
+    height: 150px;
+     
+    display: flex;
+     background-color: rgb(109, 188, 215);
+    justify-content:space-evenly ;
+    align-items: center;
+    margin-top: 70px;
+}
+.progress img{
+    width: 100px;
+}
+.progress img:hover{
+    transform: scale(1.1);
+}
+
+
+.project{
+    margin-top: 250px;
+}
+.project h2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35px;
+    color: rgb(120, 150, 0);
+    
+}
+.project .nav img{
+    border: 10px rgb(255, 255, 255) solid;
+    border-radius: 10px;
+}
+.project .nav img:hover{
+    transform: scale(1.1);
+}
+.project .goibibo img{
+    height: 70px;
+}
+.project .gouter{
+    width: 225px;
+    height: 212px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.project .gouter:hover{
+    transform: scale(1.1);
+}
+.project .bank img{
+    width: 220px;
+}
+.project .bouter{
+    width: 225px;
+    height: 212px;
+    background-color: rgb(191, 188, 188);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.project .bouter:hover{
+    transform: scale(1.1);
+}
+.allone{
+    background-color: rgb(109, 188, 215);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:50px ;
+}
+.down{
+    width: 100%;
+    height: 550px;
+    background-color: rgb(109, 188, 215);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email{
+    background-color: rgb(193, 220, 243);
+    height: 350px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px rgb(52, 54, 56) solid;
+    border-radius:10px ;
+}
+.contact h2{
+    font-weight: bolder;
+    font-size: 35px;
+    color: rgb(120, 150, 0);
+    text-align: center;
+    margin-top: 300px;
+}
+.email input{
+    width: 790px;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+.email textarea{
+    width: 790px;
+    border: 1px black solid;
+     border-radius: 10px;
+}
+.email button{
+   color: rgb(0, 0, 0);
+   background-color: rgb(172, 98, 38);
+   height: 40px;
+   width: 200px;
+   border-radius: 15px;
+   margin-left: 290px;
+}
+.email input:hover{
+    transform: scale(1.01);
+}
+.icon{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(88, 87, 89);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.icon .inter{
+    width: 400px;
+    height: 50px;
+    background-color: rgb(88, 87, 89);
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon img{
+    width: 40px;
+}
+.icon img:hover{
+   transform: scale(1.1);
+}
